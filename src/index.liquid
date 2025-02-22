@@ -1,0 +1,13 @@
+---
+layout: base
+---
+<script>
+    const userLanguage = navigator.language || navigator.userLanguage;
+    const supportedLanguages = ['en', 'tr'];
+    const baseLanguage = userLanguage.split('-')[0];
+    const targetLang = supportedLanguages.includes(baseLanguage) ? baseLanguage : 'en';
+    window.location.href = `/${targetLang}/`;
+</script>
+<noscript>
+    <meta http-equiv="refresh" content="0;url=/en/">
+</noscript>

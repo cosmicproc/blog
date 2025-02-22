@@ -1,0 +1,9 @@
+---
+tags: post
+title: First Post
+date: 2025-02-22
+---
+
+Welcome to my new blog! In this post I am going to introduce you to this blog and a bit of myself to you. First of all I am a student. I've been tinkering around with computers for more than 6 years. I got interested into pretty much everything about computers at some point. However, my current focus right now is data science and machine learning. I am trying to get into those fields and learn about them. I've been interested in web development before this but I am no longer wishing to continue that any more. Even though it helped me learn how to build cool websites like this, it felt a bit mundane for me after a while. I have some [projects](https://github.com/cosmicproc?tab=repositories) on GitHub that I developed to learn and experiment. You can check them out if you are interested. There is nothing mindblowing yet. Most of them are archived since I do not plan to continue working on them. We also started creating a project portfolio type of website called [Dechirp](https://dechirp.com) with friends to showcase what we can do and create a some kind of philosophy to improve ourselves. I would really appreciate if you also checked that out. We haven't got much there yet but we plan to work on it. It is really hard to find exciting unique project ideas and we don't want to put anything too typical there.
+
+Now about the blog. This is a static website that runs on GitHub Pages built with [11ty](https://11ty.dev) which is a neat simple static page generator. I styled it in a astronomical way. The font is called "Space Grotesk". The reason is that it's cool and my GitHub username is cosmicproc. I hope to publish posts about random things here, mainly computer/tech related. The blog supports two languages: Turkish and English. Turkish is my native language.

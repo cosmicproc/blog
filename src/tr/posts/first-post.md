@@ -1,0 +1,9 @@
+---
+tags: post
+title: İlk Blog Yazısı
+date: 2025-02-22
+---
+
+Bloguma hoşgeldiniz! Bu yazıda size bu blogu ve kendimi tanıtacağım. Öncelikle ben şu anda bir öğrenciyim. Bilgisayarlar ile 6 yıldan fazla süredir ilgiliyim. Bir noktada bilgisayarla ilgili olan neredeyse her şeye ilgili olmuşumdur. Ancak şu anki odağım veri bilimi ve makine öğrenmesi. Bu alanlara girip onlar üzerinde çalışmak istiyorum. Bundan önce web geliştirmeye ilgiliydim ama artık devam etmeyi pek düşünmüyorum. Bu websitesi gibi güzel websiteleri geliştirmemi sağlamış olsa bile bir noktadan sonra artık çok sıradan gelmeye ve benim için can sıkıcı olmaya başladı. GitHub'ımda bazı öğrenmek ve denemek için geliştirmiş olduğum [projelerim](https://github.com/cosmicproc?tab=repositories) var. Eğer ilgiliyseniz bunlara bakabilirsiniz. Henüz çok büyük bir projem olmadı. Çoğu projem şu anda arşivlenmiş durumda çünkü bu projelere devam etmeyi düşünmüyorum. Aynı zamanda bazı ilgili arkadaşlarla oluşturduğumuz [Dechirp](https://dechirp.com) isimli bir websitemiz var. Bu websitesi ile yapabildiklerimizi göstermeye ve kendimizi geliştirmek için bir anlayış geliştirmeyi amaçlıyoruz. Eğer Dechirp'e bir bakarsanız sevinirim. Henüz çok bir şey yok ancak zamanla üzerinde uğraşmayı düşünüyoruz. İlginç ve eşsiz proje fikri bulmak oldukça zor ve biz oraya çok fazla tipik olan projeleri koymayı istemiyoruz.
+
+Şimdi biraz blogun hakkından bahsedelim. Bu blog tamamen statik bir websitesi ve GitHub Pages üzerinde çalışıyor. [11ty](https://11ty.dev) isimli basit ama oldukça iyi bir statik websitesi oluşturucu ile geliştirildi. Websitesini astronomik bir temada tasarladım. Kullanılan fontun ismi "Space Grotesk". Bunun sebebi bu temayı beğenmem ve GitHub ismimin cosmicproc olması. Bu blogda temelde bilgisayarlar/teknoloji hakkında yazmayı düşünüyorum. Blog iki dili destekliyor: Türkçe ve İngilizce.

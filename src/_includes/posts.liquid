@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<h1>{{ msg[lang].posts }}</h1>
+<div class="cards">
+    {%- for post in collections.post -%}
+        {%- if post.data.lang == lang -%}
+            <div class="card">
+                <h2 class="card-title">{{ post.data.title }}</h2>
+                <p>{{ post.content | strip_html | truncate: 250 }}</p>
+                <i class="card-date">{{ post.date | date: '%Y-%m-%d' }}</i>
+                <div class="card-links">
+                    <a href="{{ post.url }}" class="card-link">{{ msg[lang].read_more }}</a>
+                </div>
+            </div>
+        {%- endif -%}
+    {%- else -%}
+        <p>{{ msg[lang].no_posts }}</p>
+    {%- endfor -%}
+</div>

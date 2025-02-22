@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#373778" media="(prefers-color-scheme: light)">
+        <meta name="theme-color" content="#3a3a86" media="(prefers-color-scheme: dark)">
+        <meta
+            name="description"
+            content="{{ desc | default: "This is cosmicproc's blog." }}"
+        >
+        <title>
+            {{ title | default: "cosmicproc's blog" }}
+        </title>
+        {% if highlight %}
+            <link
+                href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css"
+                rel="stylesheet"
+            >
+        {% endif %}
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ "/assets/style.css" }}"
+        >
+        <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    </head>
+    <body>
+        <div class="header-container">
+            <header>
+                <img src="/assets/img/profile.webp" alt="profile image" width="27" height="27" class="header-profile">
+                <a href="{{ "/" | locale_url }}" class="header-title">{{ msg[lang].header_title }}</a>
+            </header>
+        </div>
+        <div class="content">
+            {{ content }}
+        </div>
+        <footer>
+            <span>💫</span>
+            <a href="{{ "/" | locale_url }}" class="footer-link">{{ msg[lang].home }}</a>
+            <a href="https://github.com/cosmicproc" class="footer-link">GitHub</a>
+            <span>|</span>
+            <a href="/en" class="footer-link">en</a>
+            <a href="/tr" class="footer-link">tr</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<h1>{{ title }}</h1>
+<p>
+    {{ msg[lang].published_on }}
+    <i>{{ date | date: '%Y-%m-%d' }}</i>
+</p>
+{{ content }}
+{% assign links = page.url | locale_links %}
+{% if links.size > 0 %}
+    <div class="other-langs">
+        {{ msg[lang].other_langs_label }}
+        {% assign links = page.url | locale_links %}
+        {%- for link in links %}
+            {%- unless forloop.first %},{% endunless %}
+            <a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{ link.label }}</a>
+        {%- endfor -%}
+    </div>
+{% endif %}
